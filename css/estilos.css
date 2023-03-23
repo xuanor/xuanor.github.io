@@ -1,0 +1,333 @@
+/*CSS general de elementos*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #293039;
+    color: white;
+    font: 400 16px 'Public Sans', sans-serif;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 48px;
+    background-color: #000;
+    color: #ffc900;
+    font-size: 15px;
+    text-align: center;
+}
+nav ul{
+    display: inline-block;
+}
+nav ul li{
+    padding-top: 16px;
+}
+h2{
+    color: #69005a;
+    font-size: 28px;
+    line-height: 36px;
+}
+h3{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+h4{
+    padding: 0px 10px 0px 100px;
+    font-size: 14px;
+}
+strong{
+    font-weight: 700;
+}
+cite{
+    font-weight: 400;
+}
+p{
+    padding: 15px 20px 5px 100px;
+    font-size: 11px;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin: 0px 20px 0px 20px;
+    float: left;
+}
+i{
+    font-size: 35px;
+    color: #5e17eb;
+}
+i:hover{
+    color: #69005a;
+}
+a:any-link{
+    color: #5e17eb;
+}
+a:-webkit-any-link{
+    color: #5e17eb;
+}
+a:-moz-any-link{
+    color: #5e17eb;
+}
+button{
+    font: 700 13px 'Public Sans', sans-serif;
+}
+/*CSS IDs y Clase*/
+
+/*Bloque presentacion*/
+/*Bloque presentacion (menu-inicio)*/
+#logo{
+    padding-top: 10px;
+}
+.marcador{
+    text-decoration: none;
+    font-weight: 700;
+}
+.marcador:any-link{
+    color: #e2c858;
+}
+.marcador:-webkit-any-link{
+    color: #e2c858;
+}
+.marcador:-moz-any-link{
+    color: #e2c858;
+}
+.marcador:hover{
+    color: white;
+}
+/*Bloque presentacion (inicio)*/
+#inicio-sobremi{
+    padding-bottom: 15px;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 210px;
+}
+#foto-inicio{
+    border-radius: 40px;
+}
+#inicio{
+    padding: 140px 0px 0px 90px;
+}
+#my-name{
+    color: white;
+    font-size: 25px;
+    border-top: 100px;
+    padding-top: 20px;
+}
+#hashtag_one{
+    color: #ffc900;
+    font-size: 13px;
+    padding: 5px 0px 5px 8px;
+    
+}
+#hashtag_two{
+    color: #ffc900;
+    font-size: 13px;
+    padding: 5px 0px 300px 8px;
+    
+}
+/*Bloque presentacion (sobre mi)*/
+/*Grid Sobre mi*/
+#sobremi{
+    width: 100%;
+    margin: 0px;
+    padding: 0px 0px 120px 0px;
+    border-radius: 0px 0px 0px 50px;
+    background-color: #f0cdff;
+    color: #69005a;
+}
+#foto-sobremi{
+    border-radius: 0px 0px 0px 50px;
+}
+#titulo-sobremi{
+    padding: 50px 100px 30px 80px;
+    font-size: 35px;
+}
+.texto-sobremi{
+    padding: 0px 100px 0px 80px;
+    font-size: 15px;
+}
+#fin-texto-sobremi{
+    padding: 0px 100px 70px 80px;
+    font-size: 15px;
+}
+#redes_sociales{
+    margin: 20px 0px 0px 85px;
+}
+/*Bloque de decoracion*/
+#decoracion{
+     background-color: #fee440;
+     width: 105%;
+}
+#decoracion h3{
+    padding: 5px;
+    background-color: #293039;
+    color: white;
+    font-size: 10px;
+}
+svg {
+   
+    width: 100%;
+    height: 100vh;
+}
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.out-top {
+    animation: rotate 20s linear infinite;
+    transform-origin: 13px 25px;
+}
+.in-top {
+    animation: rotate 10s linear infinite;
+    transform-origin: 13px 25px;
+}
+.out-bottom {
+    animation: rotate 25s linear infinite;
+    transform-origin: 84px 93px;
+}
+.in-bottom {
+    animation: rotate 15s linear infinite;
+    transform-origin: 84px 93px;
+}
+/*Bloque portfolio-contacto*/
+#portfolio-contacto{
+    display: grid;
+    grid-template-columns: 600px 515px ;
+}
+/*Bloque portfolio*/
+#portfolio{
+    padding: 100px 20px 100px 20px;
+    /*display: inline-block;*/
+    border-radius: 0px 50px 50px 0px;
+    background-color: #f0cdff;
+    color: #000;
+}
+/*Bloque portfolio (educacion)*/
+#educacion{
+    padding-bottom: 30px;
+    border-top:solid #000 2px;
+}
+#titulo-educacion{
+    padding: 20px 100px 15px 30px;
+    font-size: 20px;
+}
+#fecha-educacion{
+    padding: 0px 15px 0px 15px;
+    display: inline-block;
+    font-size: 12px;
+}
+#instituto{
+    padding: 0px 20px 5px 0px;
+    display: inline-block;
+    font-size: 14px;
+}
+.p2{
+    padding: 0px 20px 20px 100px;
+    font-size: 11px;
+}
+/*Bloque portfolio (experiencia)*/
+#experiencia{
+    padding-bottom: 30px;
+    border-top:solid #000 2px;
+}
+#titulo-experiencia{
+    padding: 20px 100px 15px 30px;
+    font-size: 20px;
+}
+#fecha-trabajo{
+    padding: 0px 15px 0px 15px;
+    display: inline-block;
+    font-size: 11px;
+}
+#puesto-trabajo{
+    padding: 0px 20px 5px 0px;
+    display: inline-block;
+    font-size: 14px;
+}
+#empresa{
+    padding: 15px 20px 5px 140px;
+}
+#CV button{
+    margin: 80px 20px;
+    padding: 10px 15px;
+    border: solid 0px;
+    border-radius: 10px;
+    background-color: #cf8bc5;
+    color: whitesmoke;
+    font-size: 13px;
+    float: left;
+}
+#CV button:hover{
+    border: solid 1px #000;
+    background-color: #69005a;
+    color: white;
+}
+/*Bloque contacto*/
+#contacto{
+    margin-top: 80px;
+    padding-left: 150px;
+     /*display: inline-block;*/
+}
+.itemform h2{
+    margin-bottom: 30px;
+    color:#e2c858;
+    font-size: 30px;
+}
+.itemform{
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 100px 250px;
+    justify-content: center;
+}
+.itemform label{
+    color: #f0cdff;
+    font-size: 17px;
+    font-weight: 400;
+}
+.itemform input, .itemform textarea{
+    border-radius: 5px;
+    border: 2px solid white;
+    font-size: 18px;
+}
+#mensaje{
+    margin-bottom: 0px;
+}
+#fin-formulario{
+    display: grid;
+    grid-template-columns: 100px 200px;
+    gap: 20px;
+}
+#fin-formulario li{
+    margin: 0px;
+}
+input[type="submit"]{
+    margin-top: 70px;
+    padding: 8px 25px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    background-color: #000;
+    color: white;
+    font: 700 11px 'Public Sans', sans-serif;
+    letter-spacing: 1px;
+}
+input[type="submit"]:hover{
+    border: solid 1px white;
+    color: #e2c858;
+}
+/*Footer*/
+.footer{
+    padding: 50px 506px 50px 500px;
+    width: 31%;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    justify-content:center;
+    background-color: #000;
+    color: #888;
+    font-size: 5px;
+}
+.footer p{
+    padding: 10px
+}
