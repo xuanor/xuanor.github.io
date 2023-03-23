@@ -8,6 +8,17 @@ body{
     color: white;
     font: 400 16px 'Public Sans', sans-serif;
 }
+@media (min-width: 400px){
+    nav{
+        position: fixed;
+        width: 100%;
+        height: 48px;
+        background-color: #000;
+        color: #ffc900;
+        font-size: 15px;
+        text-align: center;
+    } 
+}
 nav{
     position: fixed;
     width: 100%;
@@ -97,6 +108,14 @@ button{
     color: white;
 }
 /*Bloque presentacion (inicio)*/
+@media (min-width: 400px){
+    #inicio-sobremi{
+        padding-bottom: 15px;
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        gap: 210px;
+    }  
+}
 #inicio-sobremi{
     padding-bottom: 15px;
     display: grid;
@@ -156,6 +175,12 @@ button{
     margin: 20px 0px 0px 85px;
 }
 /*Bloque de decoracion*/
+@media (min-width: 400px){
+    #decoracion{
+        background-color: #fee440;
+        width: 105%;
+   } 
+}
 #decoracion{
      background-color: #fee440;
      width: 105%;
@@ -193,6 +218,12 @@ svg {
     transform-origin: 84px 93px;
 }
 /*Bloque portfolio-contacto*/
+@media (min-width: 400px){
+    #portfolio-contacto{
+        display: grid;
+        grid-template-columns: 600px 515px ;
+    }
+}
 #portfolio-contacto{
     display: grid;
     grid-template-columns: 600px 515px ;
@@ -318,6 +349,18 @@ input[type="submit"]:hover{
     color: #e2c858;
 }
 /*Footer*/
+@media (min-width: 400px){
+    .footer{
+        padding: 50px 506px 50px 500px;
+        width: 31%;
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        justify-content:center;
+        background-color: #000;
+        color: #888;
+        font-size: 5px;
+    }  
+}
 .footer{
     padding: 50px 506px 50px 500px;
     width: 31%;
